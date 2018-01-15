@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	background-color: powderblue;
+}
+
+h1 {
+	color: red;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	color: red;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal
+}
+
+p.white {
+	color: #F5F5F5;
+}
+
+img {
+	margin: 0 0 10px 10px;
+}
+
+.centre {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+ul.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFBEF;
+	padding-right: 1px;
+}
+
+li.navbar.right {
+	float: right;
+}
+
+li.navbar.right a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	display: block;
+	color: black;
+	text-align: center;
+	padding-top: 21px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	text-decoration: none;
+}
+
+li.navbar.right a:hover {
+	margin: -1px;
+	border-radius: 10px;
+	border: 1px solid #FF444D;
+	color: #7F2226;
+	transition: color 0.5s ease;
+}
+
+li.navbar.image {
+	float: left;
+	padding-right: 40px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+
+footer {
+	color: #F5F5F5;
+	background-color: #333;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+.container > div {
+  flex: 1;
+}
